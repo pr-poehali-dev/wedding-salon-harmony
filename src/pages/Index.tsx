@@ -277,8 +277,7 @@ const Index = () => {
                   Адрес
                 </h4>
                 <p className="text-muted-foreground mb-6">
-                  г. Москва, ул. Тверская, д. 15<br />
-                  БЦ "Премиум", 3 этаж
+                  Улица Садовая, 25
                 </p>
                 <h4 className="text-xl font-semibold mb-4 flex items-center gap-2">
                   <Icon name="Clock" size={24} className="text-primary" />
