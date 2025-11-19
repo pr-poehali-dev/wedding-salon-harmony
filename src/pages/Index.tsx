@@ -294,7 +294,7 @@ const Index = () => {
                 </h4>
                 <p className="text-muted-foreground mb-6">
                   +7 978 678-41-92<br />
-                  erohinnikita60@gmail.com
+                  Chuykovayuliya24@gmail.com
                 </p>
                 <h4 className="text-xl font-semibold mb-4 flex items-center gap-2">
                   <Icon name="Share2" size={24} className="text-primary" />
