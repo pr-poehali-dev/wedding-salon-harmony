@@ -305,6 +305,22 @@ const Index = () => {
                     <Icon name="Send" size={24} />
                   </a>
                 </div>
+                <div className="mt-8">
+                  <h4 className="text-xl font-semibold mb-4 flex items-center gap-2">
+                    <Icon name="QrCode" size={24} className="text-primary" />
+                    QR-код сайта
+                  </h4>
+                  <div className="inline-block p-4 bg-white rounded-lg">
+                    <img 
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(window.location.origin)}`}
+                      alt="QR-код сайта"
+                      className="w-32 h-32"
+                    />
+                  </div>
+                  <p className="text-sm text-muted-foreground mt-2">
+                    Отсканируйте для быстрого доступа
+                  </p>
+                </div>
               </div>
             </div>
             <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
