@@ -315,6 +315,19 @@ const Index = () => {
               </DialogTrigger>
             </Dialog>
           </Card>
+          
+          <Card className="mt-8 overflow-hidden border-border">
+            <div className="aspect-video w-full">
+              <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A0d3e8e6c8f3b4e5c8e9f0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6&amp;source=constructor"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                className="w-full h-full"
+                title="Карта расположения салона"
+              ></iframe>
+            </div>
+          </Card>
         </div>
       </section>
 
