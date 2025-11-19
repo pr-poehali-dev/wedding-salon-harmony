@@ -284,8 +284,7 @@ const Index = () => {
                   Часы работы
                 </h4>
                 <p className="text-muted-foreground">
-                  Пн-Пт: 11:00 - 20:00<br />
-                  Сб-Вс: 11:00 - 19:00
+                  Ежедневно: 10:00 - 21:00
                 </p>
               </div>
               <div>
@@ -294,21 +293,15 @@ const Index = () => {
                   Контакты
                 </h4>
                 <p className="text-muted-foreground mb-6">
-                  +7 (495) 123-45-67<br />
-                  info@harmony-wedding.ru
+                  +7 978 678-41-92<br />
+                  erohinnikita60@gmail.com
                 </p>
                 <h4 className="text-xl font-semibold mb-4 flex items-center gap-2">
                   <Icon name="Share2" size={24} className="text-primary" />
                   Социальные сети
                 </h4>
                 <div className="flex gap-4">
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Icon name="Instagram" size={24} />
-                  </a>
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                    <Icon name="Facebook" size={24} />
-                  </a>
-                  <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                  <a href="https://t.me/salon_platiya" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                     <Icon name="Send" size={24} />
                   </a>
                 </div>
