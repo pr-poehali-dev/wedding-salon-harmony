@@ -312,14 +312,27 @@ const Index = () => {
                   </h4>
                   <div className="inline-block p-4 bg-white rounded-lg">
                     <img 
-                      src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(window.location.origin)}`}
+                      src={`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=${encodeURIComponent(window.location.origin)}`}
                       alt="QR-код сайта"
                       className="w-32 h-32"
                     />
                   </div>
-                  <p className="text-sm text-muted-foreground mt-2">
+                  <p className="text-sm text-muted-foreground mt-2 mb-3">
                     Отсканируйте для быстрого доступа
                   </p>
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    onClick={() => {
+                      const link = document.createElement('a');
+                      link.href = `https://api.qrserver.com/v1/create-qr-code/?size=1000x1000&data=${encodeURIComponent(window.location.origin)}`;
+                      link.download = 'salon-harmonia-qr.png';
+                      link.click();
+                    }}
+                  >
+                    <Icon name="Download" size={16} className="mr-2" />
+                    Скачать QR-код
+                  </Button>
                 </div>
               </div>
             </div>
